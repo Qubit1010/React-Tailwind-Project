@@ -13,7 +13,8 @@ module.exports = {
         bgTheme: "#141620;",
         bgThemeTwo: "#000000;",
         textCol: "#596184;",
-        btnBgCol: "#D5FF64"
+        btnBgCol: "#D5FF64",
+        popUpBgCol: "#B7006E"
       }
     }
   },
