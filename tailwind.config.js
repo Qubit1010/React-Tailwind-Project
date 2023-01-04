@@ -16,6 +16,8 @@ module.exports = {
         btnBgCol: "#D5FF64",
         popUpBgCol: "#B7006E",
         borderDividerCol: "#e5e7eb17",
+        contractInnerBg: "#5961844d",
+        paginationBg: "#59618440"
       }
     },
     borderWidth: {
