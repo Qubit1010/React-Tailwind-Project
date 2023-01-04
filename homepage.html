@@ -67,7 +67,7 @@
                 </div>
               </div>
             </form>
-            <h3 class="w-2/12">Advanced search</h3>
+            <h3 class="w-2/12 text-btnBgCol">Advanced search</h3>
           </div>
           <!-- Contract-Block-Heading -->
           <h2 class="uppercase my-8">
@@ -465,13 +465,246 @@
             <!-- Paging-Block -->
             <div class="flex items-center">
               <div class="mr-4"><img src="./assets/Vector.png" alt="" /></div>
-              <div class="bg-bgTheme w-8	h-8 mr-1 text-center rounded-lg "><h1 class="mt-1">1</h1></div>
-              <div class="bg-paginationBg w-8	h-8 mr-1 text-center rounded-lg"><h1 class="mt-1">2</h1></div>
-              <div class="bg-paginationBg w-8	h-8 mr-1 text-center rounded-lg"><h1 class="mt-1">3</h1></div>
-              <div class="bg-paginationBg w-8	h-8 mr-1 text-center rounded-lg"><h1 class="mt-1">4</h1></div>
-              <div class="bg-paginationBg w-8	h-8 mr-1 text-center rounded-lg"><h1 class="mt-1">5</h1></div>
-              <div class="ml-3"><img src="./assets/Vector (1).png" alt="" /></div>
+              <div class="bg-bgTheme w-8 h-8 mr-1 text-center rounded-lg">
+                <h1 class="mt-1">1</h1>
+              </div>
+              <div class="bg-paginationBg w-8 h-8 mr-1 text-center rounded-lg">
+                <h1 class="mt-1">2</h1>
+              </div>
+              <div class="bg-paginationBg w-8 h-8 mr-1 text-center rounded-lg">
+                <h1 class="mt-1">3</h1>
+              </div>
+              <div class="bg-paginationBg w-8 h-8 mr-1 text-center rounded-lg">
+                <h1 class="mt-1">4</h1>
+              </div>
+              <div class="bg-paginationBg w-8 h-8 mr-1 text-center rounded-lg">
+                <h1 class="mt-1">5</h1>
+              </div>
+              <div class="ml-3">
+                <img src="./assets/Vector (1).png" alt="" />
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contract-Explorer-Section -->
+      <section id="explorer-section" class="mb-8">
+        <!-- Explorer Container -->
+        <div class="w-10/12 mx-auto text-white">
+          <h1 class="text-3xl font-semibold mt-8 mb-4">
+            Filecoin contracts explorer
+          </h1>
+          <!-- Search Block -->
+          <div class="flex justify-between items-center">
+            <form action="#" class="w-full">
+              <div class="relative w-3/4">
+                <input
+                  class="w-full bg-bgTheme py-4 px-4 rounded-lg"
+                  type="text"
+                  placeholder="Mainnet 512"
+                  name="search"
+                />
+                <div class="absolute top-3 right-14">
+                  <img src="./assets/closeIcon.png" alt="" />
+                </div>
+                <div class="absolute top-5 right-6">
+                  <img src="./assets/Group.png" alt="" />
+                </div>
+                <div
+                  class="absolute top-4 right-60 flex justify-center items-center"
+                >
+                  <h4 class="text-btnBgCol mr-2">Projects</h4>
+                  <img src="./assets/Vector 233.png" alt="" srcset="" />
+                </div>
+                <div
+                  class="absolute top-4 right-32 flex justify-center items-center"
+                >
+                  <h4 class="text-btnBgCol mr-2">Wallabynet</h4>
+                  <img src="./assets/Vector 233.png" alt="" srcset="" />
+                </div>
+              </div>
+            </form>
+            <h3 class="w-2/12 text-btnBgCol">Advanced search</h3>
+          </div>
+          <!-- Contract-Data-Container -->
+          <div
+            class="h-screen flex justify-center items-center border-6 border-gray-700 mt-10 rounded-xl"
+          >
+            <h1 class="text-3xl font-bold">No data found</h1>
+          </div>
+        </div>
+      </section>
+      <!-- Advance-Search Pop-up-Section  -->
+      <section
+        id="advance-search"
+        class="relative w-full h-screen " 
+        style="background-image: url(./assets/Modal.png)"
+      >
+        <!-- Advance-Search Pop-up container  -->
+        <div
+          class="absolute top-20 left-52 h-4/5 w-3/4 mx-auto flex flex-col bg-black text-white px-12 py-16 rounded-lg"
+        >
+          <!-- Top-Block-Content -->
+          <div class="flex justify-between">
+            <div>
+              <h1 class="text-2xl font-semibold mb-1">Advanced search</h1>
+              <p class="text-gray-500 font-semibold">
+                Build complex queries to get detailed insigts about the Filecoin
+                network.
+              </p>
+            </div>
+            <button
+              class="py-0.5 px-8 bg-bgTheme text-sm text-gray-300 rounded-lg"
+            >
+              in Projects
+              <span class="ml-4">
+                <img
+                  class="inline-block"
+                  src="./assets/Vector 232.png"
+                  alt=""
+                  srcset=""
+              /></span>
+            </button>
+          </div>
+          <!-- Middle-Block-Content -->
+          <div class="mt-20">
+            <h1 class="mb-2 font-extralight tracking-wide">CREATE A RULE</h1>
+            <!-- Middle-Search-Blcok -->
+            <div class="flex items-center">
+              <form action="#" class="w-full flex">
+                <!-- 1st Input -->
+                <div class="relative w-1/5 mr-2">
+                  <input
+                    class="w-full bg-bgTheme py-4 px-4 rounded-lg"
+                    type="text"
+                    placeholder="Attribute"
+                    name="search"
+                  />
+                  <div class="absolute top-5 right-6">
+                    <img src="./assets/Vector 232.png" alt="" />
+                  </div>
+                </div>
+                <!-- 2nd Input -->
+                <div class="relative w-1/12 mr-2">
+                  <input
+                    class="w-full bg-bgTheme py-4 px-4 rounded-lg"
+                    type="text"
+                    placeholder="is"
+                    name="search"
+                  />
+                  <div class="absolute top-6 right-6">
+                    <img src="./assets/Vector 232.png" alt="" />
+                  </div>
+                </div>
+                <!-- 3rd Input -->
+                <div class="relative w-3/5">
+                  <input
+                    class="w-full bg-bgTheme py-4 px-4 rounded-lg"
+                    type="text"
+                    placeholder=""
+                    name="search"
+                  />
+                  <div
+                    class="absolute top-2 left-6 flex justify-center items-center bg-paginationBg p-2 px-4 rounded-lg"
+                  >
+                    <h4 class="mr-2">val1</h4>
+                    <img src="./assets/Close.png" alt="" srcset="" />
+                  </div>
+                  <div
+                    class="absolute top-2 left-32 flex justify-center items-center bg-paginationBg p-2 px-4 rounded-lg"
+                  >
+                    <h4 class="mr-2">val22</h4>
+                    <img src="./assets/Close.png" alt="" srcset="" />
+                  </div>
+                  <div
+                    class="absolute top-4 left-60 flex justify-center items-center"
+                  >
+                    <h4 class="">Mainnet 512 |</h4>
+                  </div>
+                </div>
+              </form>
+              <h3
+                class="w-40 text-btnBgCol border-btnBgCol border-4 py-2 px-4 text-center rounded-lg"
+              >
+                Add Rule
+              </h3>
+            </div>
+            <!-- Middle-Value-BLock -->
+            <div class="mt-8">
+              <div
+                class="w-full flex justify-between items-center bg-bgTheme p-4 rounded-lg"
+              >
+                <!-- left-block -->
+                <div class="flex items-center">
+                  <img class="mr-2" src="./assets/closeIcon.png" alt="" />
+                  <h2
+                    class="mr-2 py-1 px-2 border-btnBgCol border-2 rounded-md"
+                  >
+                    TOTAL VALUE LOCKED
+                  </h2>
+                  <h2
+                    class="mr-2 py-1 px-2 border-gray-700 border-2 rounded-md"
+                  >
+                    in Projects
+                  </h2>
+                  <h2
+                    class="mr-2 py-1 px-3 border-pink-600 text-pink-600 border-2 rounded-full"
+                  >
+                    greater than
+                  </h2>
+                  <h2
+                    class="mr-2 py-1 px-2 bg-pink-600 text-white font-thin rounded-md"
+                  >
+                    6000
+                  </h2>
+                </div>
+                <!-- right-block -->
+                <div class="bg-gray-800 rounded-lg">
+                  <img src="./assets/edit-pen-2.png" alt="" />
+                </div>
+              </div>
+              <div
+                class="w-full flex justify-between items-center bg-bgTheme p-4 mt-2 rounded-lg"
+              >
+                <!-- left-block -->
+                <div class="flex items-center">
+                  <img class="mr-2" src="./assets/closeIcon.png" alt="" />
+                  <div class="border-contractInnerBg border-2 mr-2">
+                    <button class="py-1 px-2 bg-contractInnerBg">and</button>
+                    <button class="py-1 px-2">or</button>
+                  </div>
+                  <h2
+                    class="mr-2 py-1 px-2 border-btnBgCol border-2 rounded-md"
+                  >
+                    FUNCTION
+                  </h2>
+                  <h2
+                    class="mr-2 py-1 px-2 border-gray-700 border-2 rounded-md"
+                  >
+                    in Txns
+                  </h2>
+                  <h2
+                    class="mr-2 py-1 px-3 border-pink-600 text-pink-600 border-2 rounded-full"
+                  >
+                    contains
+                  </h2>
+                  <h2
+                    class="mr-2 py-1 px-2 bg-pink-600 text-white font-thin rounded-md"
+                  >
+                    storage
+                  </h2>
+                </div>
+                <!-- right-block -->
+                <div class="bg-gray-800 rounded-lg">
+                  <img src="./assets/edit-pen-2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Bottom-Block-Content -->
+          <div class="mt-20">
+            <button class="py-3 px-6 bg-btnBgCol text-sm font-bold mr-4 text-black rounded-lg ">SEARCH</button>
+            <button class="text-sm text-gray-500">Cancel</button>
           </div>
         </div>
       </section>
