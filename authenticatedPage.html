@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Dashboard</title>
+  </head>
+  <body class="bg-bgThemeTwo">
+    <!-- Header -->
+    <header class="border-b-2 border-borderDividerCol">
+      <nav class="">
+        <!-- Nav-Container -->
+        <div class="flex justify-between items-center">
+          <!-- Logo-Block -->
+          <div class="flex items-center">
+            <div class="py-8 px-8 border-r-2 border-borderDividerCol">
+              <img src="./assets/Vector.svg" alt="" />
+            </div>
+            <div class="flex items-center ml-4 space-x-3">
+              <img class="w-8" src="./assets/Dashboard.svg" alt="" />
+              <img class="w-2" src="./assets/Vector arr.svg" alt="" />
+              <h3 class="text-btnBgCol text-sm">My Projects</h3>
+            </div>
+          </div>
+          <!-- Authenticate-Block -->
+          <div class="flex items-center justify-center mr-4 text-white">
+            <img src="./assets/Frame 28594.svg" alt="" />
+            <div class="flex items-center">
+              <h2 class="ml-4 mr-1 text-btnBgCol text-sm font-semibold">
+                ana@altlabs.dev
+              </h2>
+              <img src="./assets/Vector 232.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero-Section -->
+      <section>
+        <!-- Hero Container -->
+        <div
+          class="w-11/12 py-6 px-8 mx-auto text-white border-l-2 border-borderDividerCol"
+        >
+          <!-- Projects-Section -->
+          <section class="">
+            <!-- Project-Section-Head -->
+            <div class="flex items-center justify-between">
+              <!-- left -->
+              <div>
+                <h1 class="text-2xl font-bold">My projects</h1>
+                <h3 class="font-semibold mt-2 text-gray-500">
+                  Collections of contracts you created or want to be in the loop
+                  about.
+                </h3>
+              </div>
+              <!-- Right -->
+              <div class="flex items-center">
+                <img
+                  class="bg-lime-800 rounded-lg opacity-50"
+                  src="./assets/plus.svg"
+                  alt=""
+                />
+                <h2 class="text-sm font-semibold text-btnBgCol ml-2">
+                  New project
+                </h2>
+              </div>
+            </div>
+            <!-- Project-Section-Detail -->
+            <div class="grid grid-cols-3 gap-4">
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="relative h-5/6 flex flex-col justify-evenly px-8 pt-8 pb-8 mt-10 bg-bgTheme rounded-lg"
+              >
+                <!-- R-top-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 285911.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-2xl">FilTeck project</h2>
+                    <h2 class="text-sm text-gray-300">6 contracts</h2>
+                  </div>
+                </div>
+                <!-- R-center-Block -->
+                <div class="flex justify-between">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm mr-2">
+                      TOTAL VALUE LOCKED
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">56.236 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TOTAL TRANSACTIONS
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">657</h2>
+                  </div>
+                </div>
+                <!-- R-bottom-Block -->
+                <div class="flex space-x-2 mt-8">
+                  <img src="./assets/open.png" alt="" />
+                  <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                </div>
+                <!-- Tag -->
+                <div class="absolute -top-4 -left-1">
+                  <h2 class="text-sm bg-gray-500 px-4 py-1 rounded-sm">
+                    CONTRACT
+                  </h2>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="relative h-5/6 flex flex-col justify-evenly px-8 pt-8 pb-8 mt-10 bg-bgTheme rounded-lg"
+              >
+                <!-- R-top-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 285911.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-2xl">FilTeck project</h2>
+                    <h2 class="text-sm text-gray-300">6 contracts</h2>
+                  </div>
+                </div>
+                <!-- R-center-Block -->
+                <div class="flex justify-between">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm mr-2">
+                      TOTAL VALUE LOCKED
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">56.236 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TOTAL TRANSACTIONS
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">657</h2>
+                  </div>
+                </div>
+                <!-- R-bottom-Block -->
+                <div class="flex space-x-2 mt-8">
+                  <img src="./assets/open.png" alt="" />
+                  <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                </div>
+                <!-- Tag -->
+                <div class="absolute -top-4 -left-1">
+                  <h2 class="text-sm bg-gray-500 px-4 py-1 rounded-sm">
+                    CONTRACT
+                  </h2>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="relative h-5/6 flex flex-col justify-evenly px-8 pt-8 pb-8 mt-10 bg-bgTheme rounded-lg"
+              >
+                <!-- R-top-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 285911.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-2xl">FilTeck project</h2>
+                    <h2 class="text-sm text-gray-300">6 contracts</h2>
+                  </div>
+                </div>
+                <!-- R-center-Block -->
+                <div class="flex justify-between">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm mr-2">
+                      TOTAL VALUE LOCKED
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">56.236 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TOTAL TRANSACTIONS
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">657</h2>
+                  </div>
+                </div>
+                <!-- R-bottom-Block -->
+                <div class="flex space-x-2 mt-8">
+                  <img src="./assets/open.png" alt="" />
+                  <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                </div>
+                <!-- Tag -->
+                <div class="absolute -top-4 -left-1">
+                  <h2 class="text-sm bg-gray-500 px-4 py-1 rounded-sm">
+                    CONTRACT
+                  </h2>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="relative h-5/6 flex flex-col justify-evenly px-8 pt-8 pb-8 mt-10 bg-bgTheme rounded-lg"
+              >
+                <!-- R-top-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 285911.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-2xl">FilTeck project</h2>
+                    <h2 class="text-sm text-gray-300">6 contracts</h2>
+                  </div>
+                </div>
+                <!-- R-center-Block -->
+                <div class="flex justify-between">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm mr-2">
+                      TOTAL VALUE LOCKED
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">56.236 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TOTAL TRANSACTIONS
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">657</h2>
+                  </div>
+                </div>
+                <!-- R-bottom-Block -->
+                <div class="flex space-x-2 mt-8">
+                  <img src="./assets/open.png" alt="" />
+                  <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                </div>
+                <!-- Tag -->
+                <div class="absolute -top-4 -left-1">
+                  <h2 class="text-sm bg-gray-500 px-4 py-1 rounded-sm">
+                    CONTRACT
+                  </h2>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="relative h-5/6 flex flex-col justify-evenly px-8 pt-8 pb-8 mt-10 bg-bgTheme border-gray-500 border-6 rounded-lg"
+              >
+                <!-- R-top-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 285911.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-xl">0x195a484eda...</h2>
+                    <div class="flex items-center mt-2">
+                      <img src="./assets/Rectangle 1464.png" alt="" />
+                      <h2 class="text-sm ml-2">Mainnet</h2>
+                    </div>
+                  </div>
+                </div>
+                <!-- R-center-Block -->
+                <div class="flex justify-between">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm mr-2">
+                      VALUE LOCKED
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">6.259 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TRANSACTIONS
+                    </h2>
+                    <h2 class="text-2xl tracking-wide">10000+</h2>
+                  </div>
+                </div>
+                <!-- R-bottom-Block -->
+                <div class="flex space-x-2 mt-8">
+                  <img src="./assets/open.png" alt="" />
+                  <h3 class="font-semibold text-btnBgCol">Go to project</h3>
+                </div>
+                <!-- Tag -->
+                <div class="absolute -top-4 -left-1">
+                  <h2 class="text-sm bg-gray-500 px-4 py-1 rounded-sm">
+                    CONTRACT
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Project-Summary-Section -->
+          <section class="my-10">
+            <!-- Project-Summary-Head -->
+            <div>
+              <h1 class="text-2xl font-bold">FilTeck project</h1>
+            </div>
+            <!-- Project-Summary-Detail -->
+            <div class="mt-8">
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="flex items-center justify-between px-8 py-4 mb-4 bg-bgTheme border-gray-600 border-4 rounded-lg"
+              >
+                <!-- Right-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 28591.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-base">0x195a484eda..</h2>
+                    <h2 class="text-sm text-btnBgCol">verified</h2>
+                  </div>
+                </div>
+                <!-- Center-Block -->
+                <div class="flex items-center justify-start space-x-8">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">NETWORK</h2>
+                    <h2 class="text-sm tracking-wide">Mainnet 512</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      VALUE LOCKED
+                    </h2>
+                    <h2 class="text-sm tracking-wide">250 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TRANSACTIONS
+                    </h2>
+                    <h2 class="text-sm tracking-wide">532</h2>
+                  </div>
+                </div>
+                <!-- Left-Block -->
+                <div class="flex item-center justify-start space-x-3">
+                  <div class="flex items-center space-x-2">
+                    <img src="./assets/open.png" alt="" />
+                    <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                  </div>
+                  <div>
+                    <img
+                      class="bg-gray-700 rounded-lg"
+                      src="./assets/delete-bin-line.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="flex items-center justify-between px-8 py-4 mb-4 bg-bgTheme border-gray-600 border-4 rounded-lg"
+              >
+                <!-- Right-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 28591.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-base">0x195a484eda..</h2>
+                    <h2 class="text-sm text-btnBgCol">verified</h2>
+                  </div>
+                </div>
+                <!-- Center-Block -->
+                <div class="flex items-center justify-start space-x-8">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">NETWORK</h2>
+                    <h2 class="text-sm tracking-wide">Mainnet 512</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      VALUE LOCKED
+                    </h2>
+                    <h2 class="text-sm tracking-wide">250 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TRANSACTIONS
+                    </h2>
+                    <h2 class="text-sm tracking-wide">532</h2>
+                  </div>
+                </div>
+                <!-- Left-Block -->
+                <div class="flex item-center justify-start space-x-3">
+                  <div class="flex items-center space-x-2">
+                    <img src="./assets/open.png" alt="" />
+                    <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                  </div>
+                  <div>
+                    <img
+                      class="bg-gray-700 rounded-lg"
+                      src="./assets/delete-bin-line.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="flex items-center justify-between px-8 py-4 mb-4 bg-bgTheme border-gray-600 border-4 rounded-lg"
+              >
+                <!-- Right-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 28591.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-base">0x195a484eda..</h2>
+                    <h2 class="text-sm text-btnBgCol">verified</h2>
+                  </div>
+                </div>
+                <!-- Center-Block -->
+                <div class="flex items-center justify-start space-x-8">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">NETWORK</h2>
+                    <h2 class="text-sm tracking-wide">Mainnet 512</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      VALUE LOCKED
+                    </h2>
+                    <h2 class="text-sm tracking-wide">250 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TRANSACTIONS
+                    </h2>
+                    <h2 class="text-sm tracking-wide">532</h2>
+                  </div>
+                </div>
+                <!-- Left-Block -->
+                <div class="flex item-center justify-start space-x-3">
+                  <div class="flex items-center space-x-2">
+                    <img src="./assets/open.png" alt="" />
+                    <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                  </div>
+                  <div>
+                    <img
+                      class="bg-gray-700 rounded-lg"
+                      src="./assets/delete-bin-line.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="flex items-center justify-between px-8 py-4 mb-4 bg-bgTheme border-gray-600 border-4 rounded-lg"
+              >
+                <!-- Right-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 28591.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-base">0x195a484eda..</h2>
+                    <h2 class="text-sm text-btnBgCol">verified</h2>
+                  </div>
+                </div>
+                <!-- Center-Block -->
+                <div class="flex items-center justify-start space-x-8">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">NETWORK</h2>
+                    <h2 class="text-sm tracking-wide">Mainnet 512</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      VALUE LOCKED
+                    </h2>
+                    <h2 class="text-sm tracking-wide">250 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TRANSACTIONS
+                    </h2>
+                    <h2 class="text-sm tracking-wide">532</h2>
+                  </div>
+                </div>
+                <!-- Left-Block -->
+                <div class="flex item-center justify-start space-x-3">
+                  <div class="flex items-center space-x-2">
+                    <img src="./assets/open.png" alt="" />
+                    <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                  </div>
+                  <div>
+                    <img
+                      class="bg-gray-700 rounded-lg"
+                      src="./assets/delete-bin-line.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Each-BLock -->
+              <div
+                id="contract-summary"
+                class="flex items-center justify-between px-8 py-4 mb-4 bg-bgTheme border-gray-600 border-4 rounded-lg"
+              >
+                <!-- Right-Block -->
+                <div class="flex justify-start space-x-4 items-center mb-4">
+                  <img src="./assets/Group 28591.png" alt="" />
+                  <div class="">
+                    <h2 class="font-semibold text-base">0x195a484eda..</h2>
+                    <h2 class="text-sm text-btnBgCol">verified</h2>
+                  </div>
+                </div>
+                <!-- Center-Block -->
+                <div class="flex items-center justify-start space-x-8">
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">NETWORK</h2>
+                    <h2 class="text-sm tracking-wide">Mainnet 512</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      VALUE LOCKED
+                    </h2>
+                    <h2 class="text-sm tracking-wide">250 FIL</h2>
+                  </div>
+                  <div>
+                    <h2 class="text-gray-500 tracking-wide text-sm">
+                      TRANSACTIONS
+                    </h2>
+                    <h2 class="text-sm tracking-wide">532</h2>
+                  </div>
+                </div>
+                <!-- Left-Block -->
+                <div class="flex item-center justify-start space-x-3">
+                  <div class="flex items-center space-x-2">
+                    <img src="./assets/open.png" alt="" />
+                    <h3 class="font-semibold text-btnBgCol">View projects</h3>
+                  </div>
+                  <div>
+                    <img
+                      class="bg-gray-700 rounded-lg"
+                      src="./assets/delete-bin-line.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Create Contract-Section -->
+          <section
+            id="verification-pop-up"
+            class="relative w-full h-screen flex justify-center my-12"
+            style="background-image: url(./assets/ModalA.jpg)"
+          >
+            <!-- Create Contract container  -->
+            <div
+              class="absolute top-20 h-2/5 w-6/12 mx-auto flex flex-col justify-evenly bg-black text-white px-12 py-16 rounded-xl"
+            >
+              <!-- Top-Block-Content -->
+              <div class="">
+                <h1 class="text-lg tracking-wide font-semibold mb-1">
+                  Create new project
+                </h1>
+              </div>
+              <!-- Middle-Block-Content -->
+              <div class="mt-8">
+                <form action="" class="w-full">
+                  <h1 class="text-sm tracking-wide font-light my-4">
+                    PROJECT NAME
+                  </h1>
+                  <!-- Search-Input -->
+                  <div>
+                    <input
+                      class="w-full bg-bgTheme text-sm text-white font-semibold px-6 py-3 mb-4 rounded-lg"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Project name..."
+                    />
+                  </div>
+                </form>
+              </div>
+              <!-- Bottom-Block-Content -->
+              <div class="mt-12 flex items-center">
+                <button
+                  class="py-3 px-6 bg-btnBgCol text-sm font-bold mr-4 text-black rounded-lg"
+                >
+                  SAVE PROJECT
+                </button>
+                <h3 class="text-sm text-gray-600">Cancel</h3>
+              </div>
+              <!-- Close Button -->
+              <div class="absolute right-8 top-8 opacity-40">
+                <img src="./assets/Close.png" alt="" />
+              </div>
+            </div>
+          </section>
+          <!-- Edit Contract-Section -->
+          <section
+            id="verification-pop-up"
+            class="relative w-full h-screen flex justify-center my-12"
+            style="background-image: url(./assets/ModalA.jpg)"
+          >
+            <!-- Edit Contract container  -->
+            <div
+              class="absolute top-20 h-2/5 w-6/12 mx-auto flex flex-col justify-evenly bg-black text-white px-12 py-16 rounded-xl"
+            >
+              <!-- Top-Block-Content -->
+              <div class="">
+                <h1 class="text-lg tracking-wide font-semibold mb-1">
+                  Create new project
+                </h1>
+              </div>
+              <!-- Middle-Block-Content -->
+              <div class="mt-8">
+                <form action="" class="w-full">
+                  <h1 class="text-sm tracking-wide font-light my-4">
+                    PROJECT NAME
+                  </h1>
+                  <!-- Search-Input -->
+                  <div>
+                    <input
+                      class="w-full bg-bgTheme text-sm text-white font-semibold px-6 py-3 mb-4 rounded-lg"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Project name..."
+                    />
+                  </div>
+                </form>
+              </div>
+              <!-- Bottom-Block-Content -->
+              <div class="mt-12 flex items-center justify-between">
+                <button
+                  class="py-3 px-6 bg-btnBgCol text-sm font-bold mr-4 text-black rounded-lg"
+                >
+                  SAVE PROJECT
+                </button>
+                <div class="flex items-center">
+                  <img
+                    class="bg-gray-800 mr-2 rounded-lg"
+                    src="./assets/delete-bin-lineA.svg"
+                    alt=""
+                  />
+                  <h3 class="text-sm text-pink-600">Delete project</h3>
+                </div>
+              </div>
+              <!-- Close Button -->
+              <div class="absolute right-8 top-8 opacity-40">
+                <img src="./assets/Close.png" alt="" />
+              </div>
+            </div>
+          </section>
+          <!-- Delete Contract-Section -->
+          <section
+            id="verification-pop-up"
+            class="relative w-full h-screen flex justify-center my-12"
+            style="background-image: url(./assets/ModalA.jpg)"
+          >
+            <!-- Delete Contract container  -->
+            <div
+              class="absolute top-20 h-2/5 w-6/12 mx-auto flex flex-col justify-center bg-black text-white px-12 py-16 rounded-xl"
+            >
+              <!-- Top-Block-Content -->
+              <div class="">
+                <h1 class="text-2xl tracking-wide font-semibold mb-1">
+                  Are you sure you want to delete FilTeck project?
+                </h1>
+              </div>
+              <!-- Bottom-Block-Content -->
+              <div class="mt-8 flex items-center">
+                <button
+                  class="py-3 px-6 bg-pink-700 text-sm font-bold mr-4 text-black rounded-lg"
+                >
+                  YES, DELETE PROJECT
+                </button>
+                <h3 class="text-sm text-gray-600">Cancel</h3>
+              </div>
+              <!-- Close Button -->
+              <div class="absolute right-8 top-8 opacity-40">
+                <img src="./assets/Close.png" alt="" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
